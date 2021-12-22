@@ -73,7 +73,7 @@ export default function App() {
         
         count = await wavePortalContract.getTotalWaves();
         console.log("Total # of waves is: ", count.toNumber());
-        
+
       } else {
         console.log("Ethereum object doesn't exist!");
       }
@@ -91,7 +91,7 @@ export default function App() {
         </div>
 
         <div className="bio">
-        I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+        We are Renan and Daniela, we are studying web3. Connect your Ethereum wallet and wave at me!
         </div>
 
         <button className="waveButton" onClick={wave}>
